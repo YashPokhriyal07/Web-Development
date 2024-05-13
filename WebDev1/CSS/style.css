@@ -1,0 +1,64 @@
+/* Text Properties */
+body{
+    background-image: url(wave_16x9.avif);
+    /* To stop repeat */
+    background-repeat: no-repeat;
+  
+   
+}
+
+    
+
+h1{
+    border: solid black 5px;
+    /* Text Color */
+    color: green;
+
+    /* border radius */
+    border-radius: 40px;
+
+    /* Text allign */
+    text-align: center;
+
+    /* Text transform */
+    text-transform: uppercase;
+
+    /* text Decoration  */
+    text-decoration: underline;
+
+    /* letter spacing */
+    letter-spacing: 5px;
+
+    /* baground color */
+    background-color: yellow;
+}
+p{
+    /* end and start dono se perfect allign */
+    text-align: justify;
+
+    /* text indent  left border gap*/
+    text-indent: 50px;
+
+    /* line height */
+    line-height: 30px;
+
+    /* word spacing */
+    word-spacing: 10px;
+
+    /* Font family */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /* Font size */
+    font-size: 16px;
+
+    /* font style */
+    font-style: italic;
+
+    /* font weighy */
+    font-weight: 300px;
+}
+
+a{
+    /* text decoration */
+    text-decoration: none;
+}

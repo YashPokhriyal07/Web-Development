@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="box.css">
+
+    <style>
+     #d1{
+      border: solid ;
+      height: 200px;
+      padding: 20px;
+      margin: 20px;
+      width: 200px;
+      
+     }
+     #d2{
+        border: solid green ;
+      height: 200px;
+      padding: 20px;
+      margin: 20px;
+      width: 200px;
+     }
+   
+     a{
+        border: 5px solid orange;
+        /* In inline only horizontal padding work and height width property not work in inline */
+        padding-left: 10px;
+        /* solution for above problem */
+        display: inline-block; 
+
+
+     }
+    </style>
+</head>
+<body>
+    <div id="d1">This is a box</div>
+    <div id="d2">This is a box 
+        <div id="d21"></div>
+    </div>
+    <a href="https://www.google.com">Click to go to google</a>
+    <a href="https://www.google.com">Click to go to google</a>
+</body>
+</html>
